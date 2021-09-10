@@ -9,22 +9,29 @@
 }
 .title {
     background-color: rgb(255, 183, 249);
-}
-.shape{
-    width: 40vh;
-    height: 50vh;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.input {
-    margin: 5px;
+    height: 10vh;
 }
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 7px;
+    width: 42vh;
+    height: 60vh;
+    border: 1px solid black;
+    
+}
+.input {
+    margin: 5px;
+    width: 100%;
+}
+
+.textarea {
+    width: 100%;
+    height: 50%;
+}
+.button {
+    margin: 5px;
+  
 }
