@@ -6,7 +6,7 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <div className={styles.wrapFooter}>
-            <div className={`${styleContainer.conteiner} ${styles.myFooterConteiner}`}>
+            <div className={`${styleContainer.container} ${styles.myFooterConteiner}`}>
                 <h2 className={styles.title}>Дарья Курилович</h2>
                 <div className={styles.cells}>
                     <div className={styles.cell}></div>

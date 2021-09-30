@@ -6,7 +6,7 @@ import styleContainer from '../common/styles/Conteiner.module.css'
 function FreeWork() {
     return (
         <div className={styles.mainWrapWork}>
-            <div className={`${styleContainer.conteiner} ${styles.freeWork}`}>
+            <div className={`${styleContainer.container} ${styles.freeWork}`}>
                 <span className={styles.title}>Рассматриваю варианты удаленной работы</span>
                 <button>Нанять меня </button>
             </div>

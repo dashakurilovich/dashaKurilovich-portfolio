@@ -6,7 +6,7 @@ import styles from './Contacts.module.css';
 function Contacts() {
     return (
         <div className={styles.wrapContacts}>
-            <div className={`${styleContainer.conteiner} ${styles.myContactsConteiner}`}>
+            <div className={`${styleContainer.container} ${styles.myContactsConteiner}`}>
                 <h2 className={styles.title}>Контакты</h2>
                 <form className={styles.form}>
                     <input className={styles.input} />

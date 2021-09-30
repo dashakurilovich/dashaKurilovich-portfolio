@@ -5,7 +5,9 @@ function MyWork(props) {
     return (
         <div className={styles.myWork}>
             <a className={styles.button} href="">Смотреть
-                <img className={styles.icon} src="https://image.freepik.com/free-photo/close-up-portrait-photo-short-hair-cat-wearing-sunglasses_35818-111.jpg" />
+                <div className={styles.settphoto}>
+                    <img className={styles.icon} src="https://image.freepik.com/free-photo/close-up-portrait-photo-short-hair-cat-wearing-sunglasses_35818-111.jpg" />
+                </div>
                 {/* <a className={styles.button} href="">Смотреть */}
             </a>
             <div className={styles.description}>
